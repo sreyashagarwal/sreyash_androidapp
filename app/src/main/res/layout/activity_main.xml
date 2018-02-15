@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/base"
+            android:layout_width="130dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="monospace"
+            android:text=""
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/indian"
+            android:layout_width="130dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/base"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="monospace"
+            android:text=""
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:inputType="numberDecimal"
+            />
+
+        <EditText
+            android:id="@+id/malaysian"
+            android:layout_width="130dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/indian"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="monospace"
+            android:text=""
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:inputType="numberDecimal"
+            />
+
+        <EditText
+            android:id="@+id/bahraini"
+            android:layout_width="130dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/malaysian"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="monospace"
+            android:text=""
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:inputType="numberDecimal"
+            />
+
+        <EditText
+            android:id="@+id/Russian"
+            android:layout_width="130dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/bahraini"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="monospace"
+            android:text=""
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:inputType="numberDecimal"
+            />
+
+        <EditText
+            android:id="@+id/Hungarian"
+            android:layout_width="130dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/Russian"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="monospace"
+            android:text=""
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:inputType="numberDecimal"
+            />
+
+
+        <EditText
+            android:id="@+id/Japanese"
+            android:layout_width="130dp"
+            android:layout_height="46dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/Hungarian"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="monospace"
+            android:text=""
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:inputType="numberDecimal"
+            />
+
+        <EditText
+            android:id="@+id/Swiss"
+            android:layout_width="130dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/Japanese"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="monospace"
+            android:text=""
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:inputType="numberDecimal"
+            />
+
+
+        <TextView
+            android:id="@+id/usdollars"
+            android:layout_width="130dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="14dp"
+            android:layout_toLeftOf="@+id/base"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="US Dollar"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/indian1"
+            android:layout_width="130dp"
+            android:layout_height="45dp"
+            android:layout_below="@+id/usdollars"
+            android:layout_marginTop="10dp"
+            android:layout_toLeftOf="@+id/indian"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Indian"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/malaysian1"
+            android:layout_width="130dp"
+            android:layout_height="45dp"
+            android:layout_below="@+id/indian1"
+            android:layout_marginTop="10dp"
+            android:layout_toLeftOf="@+id/malaysian"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Malaysian"
+
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/bahraini1"
+            android:layout_width="130dp"
+            android:layout_height="45dp"
+            android:layout_below="@+id/malaysian1"
+            android:layout_marginTop="10dp"
+            android:layout_toLeftOf="@+id/bahraini"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Bahraini"
+
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Russian1"
+            android:layout_width="130dp"
+            android:layout_height="45dp"
+            android:layout_below="@+id/bahraini1"
+            android:layout_marginTop="10dp"
+            android:layout_toLeftOf="@+id/Russian"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Russian"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+
+            android:id="@+id/hungarian1"
+            android:layout_width="130dp"
+            android:layout_height="45dp"
+            android:layout_below="@+id/Russian1"
+            android:layout_marginTop="10dp"
+            android:layout_toLeftOf="@+id/Hungarian"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Hungarian"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/japanese1"
+            android:layout_width="130dp"
+            android:layout_height="45dp"
+            android:layout_below="@+id/hungarian1"
+            android:layout_marginTop="10dp"
+            android:layout_toLeftOf="@+id/Japanese"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Japanese"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/swiss1"
+            android:layout_width="130dp"
+            android:layout_height="45dp"
+            android:layout_below="@+id/japanese1"
+            android:layout_marginTop="10dp"
+            android:layout_toLeftOf="@+id/Swiss"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Swiss"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@+id/base"
+            android:background="@drawable/question"
+            android:text="?"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/indsubmit"
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/submit"
+            android:layout_marginTop="25dp"
+            android:layout_toRightOf="@+id/indian"
+            android:background="@drawable/question"
+            android:text="?" />
+
+        <Button
+            android:id="@+id/malsubmit"
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/indsubmit"
+            android:layout_marginTop="25dp"
+            android:layout_toRightOf="@+id/indian"
+            android:background="@drawable/question"
+            android:text="?" />
+
+        <Button
+            android:id="@+id/bahsubmit"
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/malsubmit"
+            android:layout_marginTop="25dp"
+            android:layout_toRightOf="@+id/indian"
+            android:background="@drawable/question"
+            android:text="?" />
+
+        <Button
+            android:id="@+id/russubmit"
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/bahsubmit"
+            android:layout_marginTop="25dp"
+            android:layout_toRightOf="@+id/Russian"
+            android:background="@drawable/question"
+            android:text="?" />
+
+        <Button
+            android:id="@+id/hunsubmit"
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/russubmit"
+            android:layout_marginTop="25dp"
+            android:layout_toRightOf="@+id/Hungarian"
+            android:background="@drawable/question"
+            android:text="?" />
+
+        <Button
+            android:id="@+id/japsubmit"
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/hunsubmit"
+            android:layout_marginTop="25dp"
+            android:layout_toRightOf="@+id/Japanese"
+            android:background="@drawable/question"
+            android:text="?" />
+
+        <Button
+            android:id="@+id/swisssubmit"
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/japsubmit"
+            android:layout_marginTop="25dp"
+            android:layout_toRightOf="@+id/Swiss"
+            android:background="@drawable/question"
+            android:backgroundTint="@android:color/background_dark"
+            android:text="?" />
+
+    </RelativeLayout>
+
+</ScrollView>
